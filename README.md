@@ -1,6 +1,14 @@
 # desafioQA
 
-### A - Preencher formulário simples e submeter:
+### Instalação do Playwright pelo pip:
+```
+pip install --upgrade pip
+pip install playwright
+playwright install
+```
+[Playwright python docs](https://playwright.dev/python/docs/intro)
+
+### [A - Preencher formulário simples e submeter:](desafio_QA_A.py)
 
    i. Aceder a https://demoqa.com/text-box
    
@@ -8,7 +16,7 @@
    
    iii. Submeter carregando no botão Submit
 
-### B - Verificar existência de campos obrigatórios num formulário:
+### [B - Verificar existência de campos obrigatórios num formulário:](desafio_QA_B.py)
 
    i. Aceder a https://demoqa.com/automation-practice-form
    
@@ -18,7 +26,7 @@
    
    iv. Verificar que o campo Last Name fica identificado como sendo obrigatório
 
-### C - Validar existência de registos numa listagem:
+### [C - Validar existência de registos numa listagem:](desafio_QA_C.py)
 
    i. Aceder a  https://demoqa.com/books
    
